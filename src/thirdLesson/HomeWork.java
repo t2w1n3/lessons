@@ -22,7 +22,6 @@ public class HomeWork {
             else if (mass[i] < min) min = mass[i];
             mid += mass[i];
         }
-
         mid /= 10;
 
         System.out.println(Arrays.toString(mass));
