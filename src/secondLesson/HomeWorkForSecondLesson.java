@@ -34,7 +34,7 @@ public class HomeWorkForSecondLesson {
 //       Число 345 не содержится в интервале (25;200)
 //       Число 110 содержится в интервале (25;200)
 //
-        int mathRandom = (int) (10 + Math.random() * 500);
+        int mathRandom = (int) (10 + Math.random() * 500)+1;
         if (mathRandom > 25 && mathRandom < 100)
             System.out.println("Ваше число " + mathRandom + " содержится в интервале [25;100]");
         else System.out.println("Ваше число " + mathRandom + " не содержится в интервале [25;100]");
@@ -127,7 +127,7 @@ public class HomeWorkForSecondLesson {
                     }
                     System.out.println(midl);
                 }
-                midl = (min + max) / 2;
+                midl = (min + max) + 1 / 2;
             }
         }
     }
